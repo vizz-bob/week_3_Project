@@ -1,0 +1,338 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Fuel</title>
+	<meta charset="utf-8">
+
+	<style>
+	.body {
+        background-image: url("/Users/vijayindraasiingh/Desktop/car.jpg");
+        background-position: top;
+  		background-repeat: no-repeat;
+  		}
+	.box{
+		height: 712px;
+		width: 502px;
+		background-color: #E3F2FD;
+		margin-left: 190px;
+		margin-top: 50px;
+		} 
+	.out_box{
+    	border: 1px solid black;
+    	height: 710px;
+    	width: 500px;
+    	margin-left: 0px;
+    	background-image: url(https://www.123freevectors.com/wp-content/original/116948-abstract-green-and-white-blurred-bokeh-background-design.jpg);
+  		}
+  .fuel_box{
+    	margin-top: 15px;
+    	margin-left: 30px;
+    	background-color: #00BCD4;
+    	float: left;
+  		}
+  .text{
+    	font-size: 18px;
+    	text-align: center;
+    	margin-top:15px;
+  		}
+  .trip_box{
+    	float: right;
+    	margin-top: -72px;
+    	margin-right:-230px;
+    	background-color: #8BC34A;
+  		}
+  .dist_box{
+    	margin-top: -30px;
+    	margin-left: 30px;
+    	background-color: #00BCD4;
+    	float: left;
+  		}
+  .dist_tr{
+    	float: right;
+    	margin-top: -105px;
+    	margin-right: 30px;
+    	background-color: #8BC34A;
+  		}
+   .dist_tr1{
+    	float: right;
+    	height: 50px;
+    	width: 200px;
+    	margin-top: -85px;
+    	margin-right: 30px;
+    	font-size: 18px;
+  		}
+  .fuel_box1{
+    	clear: both;
+    	height: 70px;
+    	width: 200px;
+    	margin-top:1px;
+    	margin-left: 40px;
+  	  	text-align: center;
+  		}
+  .trip_box1{
+    	float: right;
+    	height: 60px;
+    	width: 200px;
+    	margin-top: -80px;
+    	margin-right: 40px;
+  		}
+  .dist_box1{
+    	clear: both;
+    	height: 70px;
+    	width: 200px;
+    	margin-top:-10px;
+    	margin-left: 40px;
+    	font-size: 80px;
+  		}
+  .res_box{
+    	margin-left: 30px;
+  	  	margin-top: -30px;
+  		}
+  .clear{
+  		clear: left;
+		}
+  #char{
+    	font-size: 18px;
+    	text-align: center;
+    	margin-top: 10px;
+  		}
+  #char2{
+  		font-size: 18px;
+  		text-align: center;
+  		margin-top: 10px;
+  		}
+  .out_button_box1{
+    	float: left;
+    	border: 1px solid black;
+    	height: 45px;
+  		width: 65px;
+    	margin-top: 10px;
+    	margin-left: 75px;
+  		}
+  #green_button{
+    	font-size: 18px;
+    	text-align: center;
+    	height: 45px;
+    	width: 45px;
+    	background-color: #A7FFEB;
+    
+  		}
+  #grey_button{
+    	font-size: 18px;
+    	text-align: center;
+    	height: 45px;
+    	width: 45px;
+    	background-color: #40C4FF;
+    
+  		}
+  .out_button_box2{
+    	float: left;
+    	border: 1px solid black;
+    	height: 45px;
+  		width: 65px;
+    	margin-top: 10px;
+    	margin-left: 75px;
+    
+  		}
+  .out_button_box4{
+    	clear: both;
+    	float: left;
+    	border: 1px solid black;
+    	height: 45px;
+    	width: 65px;
+    	margin-top: 10px;
+    	margin-left: 80px;
+    	}
+  .out_button_box5{
+    	clear: both;
+    	float: left;
+    	border: 1px solid black;
+    	height: 50px;
+    	width: 50px;
+    	margin-left: 225px;
+    	margin-top: 10px;
+    }
+  #red_button{
+    	font-size: 18px;
+    	text-align: center;
+    	background-color: #FF1744;
+    	height: 50px;
+    	width: 50px;    
+  		}	
+  .enter_box{
+    	clear: both;
+    	float: left;
+    	border: 1px solid black;
+    	height: 40px;
+    	width: 120px;
+    	margin-left:75px;
+    	margin-top: -45px;
+  		}
+  .enter_button{
+    	height: 40px;
+    	width: 120px;
+    	background-color: #FFB74D;
+    	font-size: 18px;
+  		}	
+  .entertr_box{
+    	clear: both;
+    	float: right;
+    	border: 1px solid black;
+    	height: 40px;
+    	idth: 120px;
+    	margin-left: 200px;
+    	margin-top: -45px;
+    	margin-right: 73px;
+
+  		}
+  .entertr_button{
+    	height: 40px;
+    	width: 120px;
+    	background-color: #FFB74D;
+    	margin-top: 0px;
+    	font-size: 15x;	
+  	}
+  .reset_box{
+    	clear: both;
+   		float: left;
+   	 	border: 1px solid black;
+    	height: 40px;
+    	width: 350px;
+    	margin-left: 75px;
+    	margin-top: 10px;
+    	margin-right: 70px;
+
+  		}
+  .reset_button{
+    	height: 40px;
+    	width: 350px;
+    	background-color: #3F51B5;
+    	margin-top: 0px;
+    	margin-left: 0px;
+  		}
+  .secondary_divs{
+  		height: 40px;
+		width: 300px;
+		float: left;
+		margin-left: 10px;
+		font-size: 18px;
+		margin-top: 20px;
+  		}
+  .blank_space{
+  		height: 40px;
+  		width: 350px;
+  		margin-top: 40px;
+  		}
+  .main_heading{
+		font-size: 18px;
+		font-style: bold;
+		float: left;
+		height: 40px;
+		margin-top: -90px;
+		margin-left: 15px;
+		}
+	</style>
+</head>
+<body class="body">
+	<div class="box">
+		<div class="out_box">
+    <div class="fuel_box">
+    	<input type="numbers" id="fuel_fill" class="text" style="height: 37px; background-color: #00BCD4; border: 1px solid black; width: 195px; margin-top: -2px; text-align: center;">
+    </div>
+    <div class="fuel_box1">
+      <p class="text" style="font-size: 18px;">Fuel Filled</p>
+
+    <div class="trip_box">
+      <input type="numbers" id="fuel_fill" class="text" style="height: 37px; background-color: #00BCD4; border: 1px solid black; width: 195px; margin-top: -40px; text-align: center;">
+    </div>
+
+    </div>
+    <div class="trip_box1">
+      <p class="text" style="font-size: 18px;">Trip</p>
+    </div>     
+    <div class="dist_box">
+      <input type="numbers" id="fuel_fill" class="text" style="height: 37px; background-color: #00BCD4; border: 1px solid black; width: 195px; margin-top: -30px; text-align: center;">
+    </div>
+    <div class="dist_box1">
+      <p class="text" style="font-size: 18px;">Distance</p>
+    </div>
+
+    <div class="dist_tr">
+    <input type="numbers" id="fuel_fill" class="text" style="height: 37px; background-color: #00BCD4; border: 1px solid black; width: 195px; margin-top: -40px; text-align: center;">
+    </div>
+   
+    <div class="dist_tr1">
+      <p class="text" style="font-size: 18px;">Distance Travelled</p>
+    </div>
+
+	<div class="res_box">
+    <input type="numbers" id="fuel_fill" class="text" style="height: 37px; background-color: #00BCD4; border: 1px solid black; width: 435px; margin-top: -50px; text-align: center;"><br>
+    <div style="text-align: center;"> Car & Milage
+
+    </div>
+</div>
+    <div class="out_button_box1">
+      <button onclick="show_number(1)" id="green_button">1</button>
+    </div>
+     <div class="out_button_box2">
+      <button onclick="show_number(2)" id="grey_button">2</button>
+    </div>
+    <div class="out_button_box1">
+      <button onclick="show_number(3)" id="green_button">3</button>
+    </div>
+    <div class="out_button_box1">
+    <button onclick="show_number(4)" id="grey_button">4</button>
+    </div>
+    <div class="out_button_box2">
+      <button onclick="show_number(5)" id="grey_button">5</button>
+    </div>
+    <div class="out_button_box1">
+      <button onclick="show_number(6)" id="grey_button">6</button>
+    </div>
+    <div class="out_button_box1">
+      <button onclick="show_number(7)" id="green_button">7</button>
+    </div>
+    <div class="out_button_box2">
+      <button onclick="show_number(8)" id="grey_button">8</button>
+    </div>
+	<div class="out_button_box2">
+      <button onclick="show_number(9)" id="green_button">9</button>
+    </div>
+    <div class="out_button_box5">
+      <button onclick="show_number(0)" id="red_button">0</button>
+    </div>
+    <div class="enter_box">
+      
+      <button class="enter_button" onclick="enter()">Enter</button>
+    </div>
+    <div class="entertr_box">
+      <button onclick="triptr()" class="text entertr_button" >Enter Trip</button>
+    </div>
+    <div class="reset_box">
+      <button onclick="reset()" class="text reset_button" >Refresh</button>
+
+    </div>
+    <div class="blank_space"></div>
+    <div class="secondary_divs">
+				Distance Travelled (in Kms)
+		</div>
+	</div>
+    	
+    <div class="main_heading">	
+				Fuel Filled (Lt)
+	<div class="blank_space">
+	
+
+
+  <script>
+   
+      
+
+
+     
+
+
+  </script>
+</div>
+</body>
+</html>
